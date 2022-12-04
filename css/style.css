@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  display: flex;
+
+  justify-content: center;
+  background-color: white !important;
+}
+nav img {
+  width: 20%;
+}
+nav ul {
+  display: flex;
+
+  gap: 20%;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ababab;
+}
+nav ul li a#green {
+  color: #00b39b;
+}
+
+#slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0 3% 0;
+}
+#slogan img {
+  width: 2.5%;
+}
+#slogan h1 {
+  color: #00b39b;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+#brandHeart {
+  display: flex;
+  align-items: flex-start;
+  gap: 5%;
+  justify-content: center;
+  height: 20vh;
+  margin: 2% 0 2% 0;
+}
+#brandHeart * {
+  max-width: 30%;
+}
+
+#brandHeart ::selection {
+  background-color: #00b39b;
+  color: white;
+}
+#card {
+  display: flex;
+  gap: 3%;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  width: 80%;
+}
+#card * {
+  font-size: 20px;
+  text-align: left;
+}
+
+#card #patients,
+#doctors,
+#clinic {
+  height: 80%;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3%;
+  width: 18%;
+  gap: 6%;
+}
+
+#card #patients {
+  background-color: #00b39b;
+}
+#card #patients select {
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+#card #patients {
+  outline: none;
+  border: 0px;
+}
+#card img {
+  width: 10%;
+}
+#card #doctors {
+  background-color: #3d83df;
+}
+#card #clinic {
+  background-color: #1b2734;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  gap: 40%;
+  align-items: center;
+  margin: 3% 0 3% 0;
+  color: #00b39b;
+}
+#icons #logos {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+#icons #logos #firstRow {
+  display: flex;
+  gap: 2%;
+}
+#icons #logos #secondRow {
+  display: flex;
+
+  gap: 2%;
+}
+#greenBg {
+  background-color: #e5faf8;
+  height: 80vh;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  width: 100vw;
+  height: 80vh;
+  margin: 0 0 5% 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+#greenBg #left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 100px;
+}
+#greenBg #left {
+  background-image: url(../images/GreenStar.png);
+  background-repeat: no-repeat;
+
+  background-position-y: 10px;
+}
+
+#greenBg #right {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  font-size: 20px;
+  width: 20%;
+  border-radius: 5%;
+}
+
+#greenBg #right h2 {
+  font-size: 30px;
+  color: #00b39b;
+  text-align: center;
+}
+#greenBg #right img {
+  width: 50%;
+}
